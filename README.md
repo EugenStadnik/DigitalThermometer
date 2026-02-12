@@ -39,3 +39,6 @@ Then figure out your DS18B20 digital temperature sensor unique address using fol
 https://github.com/GyverLibs/microDS18B20?tab=readme-ov-file#%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0 
 and edit the ```uint8_t addr[] = {0x28, 0x7F, 0xB2, 0xBF, 0x0, 0x0, 0x0, 0x65};``` variable with appropriate velue.
 Use either Arduino IDE or Xgpro with any applicable T48, T56 or any other flasher.
+
+## Demo
+To observe device tests and demo, please observe following [link](https://youtu.be/AZ22aYWKjmY)
