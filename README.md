@@ -41,4 +41,4 @@ and edit the ```uint8_t addr[] = {0x28, 0x7F, 0xB2, 0xBF, 0x0, 0x0, 0x0, 0x65};`
 Use either Arduino IDE or Xgpro with any applicable T48, T56 or any other flasher.
 
 ## Demo
-To observe device tests and demo, please observe following [link](https://youtu.be/AZ22aYWKjmY)
+To observe device tests and demo, please observe the following [link](https://youtu.be/AZ22aYWKjmY)
