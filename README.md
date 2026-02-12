@@ -30,6 +30,8 @@ The components you'll need are as follows:
 
 ## Device assembly
 To assemble all parts appropriately, use the [Schematic](https://github.com/EugenStadnik/DigitalThermometer/blob/master/DigitalThermometerScheme.jpg)
+VERY IMPORTANT: Make sure that the MT3608 DC→DC Step UP module is set to 5V mode. 
+Before to solder MT3608 module to other components, connect its output to the voltmeter and screw the MT3608 module potentiometer until its output voltage is 5 V.
 
 ## Flash microcontroller
 First to flash the microcontroller you need to install the https://github.com/GyverLibs/microDS18B20 library.
