@@ -29,7 +29,7 @@ The components you'll need are as follows:
 - Flux
 
 ## Device assembly
-To assemble all parts appropriately, use the [Schematic](https://github.com/EugenStadnik/DigitalThermometer/blob/master/DigitalThermometerScheme.jpg)
+To assemble all parts appropriately, use the [Schematic](https://github.com/EugenStadnik/DigitalThermometer/blob/master/DigitalThermometerScheme.jpg).
 VERY IMPORTANT: Make sure that the MT3608 DC→DC Step UP module is set to 5V mode. 
 Before to solder MT3608 module to other components, connect its output to the voltmeter and screw the MT3608 module potentiometer until its output voltage is 5 V.
 
@@ -40,4 +40,4 @@ and edit the ```uint8_t addr[] = {0x28, 0x7F, 0xB2, 0xBF, 0x0, 0x0, 0x0, 0x65};`
 Use either Arduino IDE or Xgpro with any applicable T48, T56 or any other flasher.
 
 ## Demo
-To observe device tests and demo, please observe the following [link](https://youtu.be/AZ22aYWKjmY)
+To observe device tests and demo, please observe the following [link](https://youtu.be/AZ22aYWKjmY).
