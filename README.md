@@ -34,9 +34,8 @@ VERY IMPORTANT: Make sure that the MT3608 DC→DC Step UP module is set to 5V mo
 Before to solder MT3608 module to other components, connect its output to the voltmeter and screw the MT3608 module potentiometer until its output voltage is 5 V.
 
 ## Flash microcontroller
-First to flash the microcontroller you need to install the https://github.com/GyverLibs/microDS18B20 library.
-Then figure out your DS18B20 digital temperature sensor unique address using following steps
-https://github.com/GyverLibs/microDS18B20?tab=readme-ov-file#%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0 
+First to flash the microcontroller, you need to install the [microDS18B20](https://github.com/GyverLibs/microDS18B20) library.
+Then figure out your DS18B20 digital temperature sensor unique address using following [steps](https://github.com/GyverLibs/microDS18B20?tab=readme-ov-file#%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0)
 and edit the ```uint8_t addr[] = {0x28, 0x7F, 0xB2, 0xBF, 0x0, 0x0, 0x0, 0x65};``` variable with appropriate velue.
 Use either Arduino IDE or Xgpro with any applicable T48, T56 or any other flasher.
 
